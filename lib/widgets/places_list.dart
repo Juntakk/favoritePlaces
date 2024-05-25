@@ -1,3 +1,4 @@
+import 'package:favorite_places/screens/place_details.dart';
 import 'package:flutter/material.dart';
 import 'package:favorite_places/models/place.dart';
 
@@ -20,8 +21,32 @@ class PlacesList extends StatelessWidget {
     return ListView.builder(
       itemCount: places.length,
       itemBuilder: (ctx, index) => ListTile(
-        title: Text(places[index].title,
-            style: const TextStyle(color: Colors.white)),
+        contentPadding: const EdgeInsets.all(10),
+        leading: CircleAvatar(
+          radius: 26,
+          backgroundImage: FileImage(places[index].image),
+        ),
+        title: Text(
+          places[index].title,
+          style: Theme.of(context).textTheme.titleMedium!.copyWith(
+                color: Theme.of(context).colorScheme.primary,
+              ),
+        ),
+        subtitle: Text(
+          places[index].location.address,
+          style: Theme.of(context).textTheme.titleMedium!.copyWith(
+                color: Theme.of(context).colorScheme.primary,
+              ),
+        ),
+        onTap: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (ctx) => PlaceDetailsScreen(
+                place: places[index],
+              ),
+            ),
+          );
+        },
       ),
     );
   }
