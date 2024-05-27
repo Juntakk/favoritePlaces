@@ -9,7 +9,8 @@ class Place {
     required this.title,
     required this.image,
     required this.location,
-  }) : id = uuid.v4();
+    String? id,
+  }) : id = id ?? uuid.v4();
 
   String id;
   String title;
@@ -18,9 +19,9 @@ class Place {
 }
 
 class PlaceLocation {
-  PlaceLocation({
-    required this.longitude,
+  const PlaceLocation({
     required this.latitude,
+    required this.longitude,
     required this.address,
   });
 
