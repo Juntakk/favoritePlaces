@@ -6,15 +6,15 @@
 
 <table>
   <tr>
-    <td><img src="lib/screenshots/places1.png" alt="Picture and Location View" width="1000px"></td>
+    <td><img src="lib/screenshots/places1.png" alt="Picture and Location View" width="555px"></td>
     <td>The app's interface where users can capture a picture and select a location to mark it as a memory.</td>
   </tr>
   <tr>
-    <td><img src="lib/screenshots/places2.png" alt="Picture and Location View" width="1000px"></td>
+    <td><img src="lib/screenshots/places2.png" alt="Picture and Location View" width="555px"></td>
     <td>The Google Maps API in action, displaying the user's location on the map.</td>
   </tr>
   <tr>
-    <td><img src="lib/screenshots/places3.png" alt="Picture and Location View" width="1000px"></td>
+    <td><img src="lib/screenshots/places3.png" alt="Picture and Location View" width="555px"></td>
     <td>The list of all saved places, allowing users to browse through their memories.</td>
   </tr>
 </table>
