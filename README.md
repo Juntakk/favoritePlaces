@@ -1,16 +1,20 @@
-# favorite_places
+<h1>Favorite Places</h1>
 
-A new Flutter project.
+<p>"Favorite Places" is an app that allows users to capture memories by taking pictures and saving their location. Users can view their saved places on a map and easily access their favorite locations.</p>
 
-## Getting Started
+<h3>Screenshots</h3>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+  <tr>
+    <td><img src="lib/screenshots/places1.png" alt="Picture and Location View"></td>
+    <td>The app's interface where users can capture a picture and select a location to mark it as a memory.</td>
+  </tr>
+  <tr>
+    <td><img src="lib/screenshots/places2.png" alt="Picture and Location View"></td>
+    <td>The Google Maps API in action, displaying the user's location on the map.</td>
+  </tr>
+  <tr>
+    <td><img src="lib/screenshots/places3.png" alt="Picture and Location View"></td>
+    <td>The list of all saved places, allowing users to browse through their memories.</td>
+  </tr>
+</table>
