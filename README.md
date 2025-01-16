@@ -50,10 +50,3 @@
 <h4>4. Viewing Saved Places</h4>
 <p>Users can access their saved places through a list view or map view. The list view shows all the saved locations along with their photos, descriptions, and timestamps. The map view displays markers for each saved place, allowing users to interact with their memories in a spatial context. The integration with Firebase ensures that users' data stays consistent across devices and sessions.</p>
 
-<h3>Installation</h3>
-<ul>
-  <li>Clone the repository: <code>git clone https://github.com/your-username/favorite-places.git</code></li>
-  <li>Install dependencies: <code>flutter pub get</code></li>
-  <li>Set up Firebase and configure your Firebase project with your app's credentials.</li>
-  <li>Run the app: <code>flutter run</code></li>
-</ul>
